@@ -99,3 +99,11 @@ All published materials will be reviewed to avoid exposing credentials or sensit
 I am a Cybersecurity and Networking student at Weber State University, graduating in December 2026. Clyde is both my senior capstone and an ongoing learning environment that I plan to continue developing after graduation.
 
 My goal is to transition into enterprise IT and cybersecurity, with a particular interest in security operations, network administration, and troubleshooting.
+
+## Network Architecture
+
+The diagram below shows Clyde's network layout, including the Google Fiber router, Proxmox host, pfSense firewall, isolated virtual LAN, and the virtual machines used for Active Directory, Linux administration, and security monitoring.
+
+![Clyde Network Architecture](Clyde_Network_Architecture.png)
+
+The editable source file is also available in this folder: [Network Architecture Diagram](Clyde_Network_Architecture.drawio).
