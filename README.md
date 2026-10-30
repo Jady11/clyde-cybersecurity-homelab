@@ -104,6 +104,8 @@ My goal is to transition into enterprise IT and cybersecurity, with a particular
 
 The diagram below shows Clyde's network layout, including the Google Fiber router, Proxmox host, pfSense firewall, isolated virtual LAN, and the virtual machines used for Active Directory, Linux administration, and security monitoring.
 
-![Clyde Network Architecture](Clyde_Network_Architecture.png)
 
-The editable source file is also available in this folder: [Network Architecture Diagram](Clyde_Network_Architecture.drawio).
+![Clyde Network Architecture](docs/Clyde_Network_Architecture.png)
+
+[View the editable network diagram](docs/Clyde_Network_Architecture.drawio)
+
