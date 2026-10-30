@@ -1,0 +1,97 @@
+<mxfile host="app.diagrams.net">
+  <diagram name="Page-1" id="P-g9_ehRtu7MFe6F3uS1">
+    <mxGraphModel dx="1916" dy="1276" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="YaZ-BdDcl8S8cg640AEX-5" parent="1" style="rounded=0;whiteSpace=wrap;html=1;labelPosition=center;verticalLabelPosition=top;align=center;verticalAlign=bottom;labelPerimeter=1;" value="&lt;p&gt;&lt;code&gt;Proxmox Virtual Environment — Clyde Lab&lt;/code&gt;&lt;/p&gt;&lt;p&gt;&lt;/p&gt;" vertex="1">
+          <mxGeometry height="770" width="960" x="-180" y="560" as="geometry" />
+        </mxCell>
+        <mxCell id="YaZ-BdDcl8S8cg640AEX-3" edge="1" parent="1" source="YaZ-BdDcl8S8cg640AEX-1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;defaultLabelBackgroundColor=page;" target="YaZ-BdDcl8S8cg640AEX-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="YaZ-BdDcl8S8cg640AEX-4" connectable="0" parent="YaZ-BdDcl8S8cg640AEX-3" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];inheritText=1;defaultLabelBackgroundColor=page;" value="&lt;p&gt;&lt;code&gt;Ethernet — 192.168.1.0/24&lt;/code&gt;&lt;/p&gt;&lt;p&gt;&lt;/p&gt;" vertex="1">
+          <mxGeometry relative="1" x="-0.0429" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="YaZ-BdDcl8S8cg640AEX-1" parent="1" style="rounded=1;whiteSpace=wrap;html=1;roundedPerimeter=1;" value="&lt;p&gt;&lt;/p&gt;&lt;p&gt;&lt;/p&gt;&lt;p&gt;&lt;/p&gt;&lt;p&gt;&lt;span&gt;&lt;span&gt;Google &lt;/span&gt;&lt;span&gt;Fiber &lt;/span&gt;&lt;span&gt;Router&lt;/span&gt;&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;/p&gt;" vertex="1">
+          <mxGeometry height="60" width="120" x="240" y="80" as="geometry" />
+        </mxCell>
+        <mxCell id="YaZ-BdDcl8S8cg640AEX-9" edge="1" parent="1" source="YaZ-BdDcl8S8cg640AEX-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.25;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;defaultLabelBackgroundColor=page;" target="YaZ-BdDcl8S8cg640AEX-8">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="YaZ-BdDcl8S8cg640AEX-2" parent="1" style="rounded=1;whiteSpace=wrap;html=1;roundedPerimeter=1;" value="&lt;p&gt;&lt;/p&gt;&lt;p&gt;&lt;/p&gt;&lt;p&gt;&lt;/p&gt;&lt;p&gt;&lt;code&gt;&lt;span&gt;Virtual &lt;/span&gt;&lt;span&gt;Network &lt;/span&gt;&lt;span&gt;and &lt;/span&gt;&lt;span&gt;VMs &lt;/span&gt;&lt;span&gt;Hosted &lt;/span&gt;&lt;span&gt;on &lt;/span&gt;&lt;span&gt;Proxmox &lt;/span&gt;&lt;span&gt;pve01&lt;/span&gt;&lt;/code&gt;&lt;/p&gt;&lt;p&gt;&lt;/p&gt;" vertex="1">
+          <mxGeometry height="100" width="190" x="205" y="270" as="geometry" />
+        </mxCell>
+        <mxCell id="YaZ-BdDcl8S8cg640AEX-12" edge="1" parent="1" source="YaZ-BdDcl8S8cg640AEX-8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;defaultLabelBackgroundColor=page;" target="YaZ-BdDcl8S8cg640AEX-10">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="YaZ-BdDcl8S8cg640AEX-13" connectable="0" parent="YaZ-BdDcl8S8cg640AEX-12" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];inheritText=1;defaultLabelBackgroundColor=page;" value="&lt;p&gt;&lt;code&gt;WAN — 192.168.1.146/24&lt;/code&gt;&lt;/p&gt;&lt;p&gt;&lt;/p&gt;" vertex="1">
+          <mxGeometry relative="1" x="-0.5072" y="2" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="YaZ-BdDcl8S8cg640AEX-8" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="&lt;p&gt;&lt;code&gt;vmbr0 — WAN Bridge&lt;/code&gt;&lt;/p&gt;&lt;p&gt;&lt;/p&gt;" vertex="1">
+          <mxGeometry height="60" width="120" x="-90" y="580" as="geometry" />
+        </mxCell>
+        <mxCell id="YaZ-BdDcl8S8cg640AEX-16" edge="1" parent="1" source="YaZ-BdDcl8S8cg640AEX-10" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.25;exitY=1;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;defaultLabelBackgroundColor=page;" target="YaZ-BdDcl8S8cg640AEX-15">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="YaZ-BdDcl8S8cg640AEX-17" connectable="0" parent="YaZ-BdDcl8S8cg640AEX-16" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];inheritText=1;defaultLabelBackgroundColor=page;" value="LAN — 10.10.10.1/24" vertex="1">
+          <mxGeometry relative="1" x="-0.4502" y="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="YaZ-BdDcl8S8cg640AEX-10" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="&lt;p&gt;&lt;code&gt;VM101 — pfSense Firewall&lt;/code&gt;&lt;/p&gt;&lt;p&gt;&lt;/p&gt;" vertex="1">
+          <mxGeometry height="60" width="120" y="710" as="geometry" />
+        </mxCell>
+        <mxCell id="YaZ-BdDcl8S8cg640AEX-19" edge="1" parent="1" source="YaZ-BdDcl8S8cg640AEX-15" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;defaultLabelBackgroundColor=page;" target="YaZ-BdDcl8S8cg640AEX-18">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="YaZ-BdDcl8S8cg640AEX-20" connectable="0" parent="YaZ-BdDcl8S8cg640AEX-19" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];inheritText=1;defaultLabelBackgroundColor=page;" value="&lt;p&gt;&lt;code&gt;LAN — 10.10.10.103&lt;/code&gt;&lt;/p&gt;&lt;p&gt;&lt;/p&gt;" vertex="1">
+          <mxGeometry relative="1" x="0.1385" y="-3" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="YaZ-BdDcl8S8cg640AEX-36" edge="1" parent="1" source="YaZ-BdDcl8S8cg640AEX-15" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=1;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;defaultLabelBackgroundColor=page;" target="YaZ-BdDcl8S8cg640AEX-21">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="YaZ-BdDcl8S8cg640AEX-40" connectable="0" parent="YaZ-BdDcl8S8cg640AEX-36" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];inheritText=1;defaultLabelBackgroundColor=page;" value="LAN — 10.10.10.104" vertex="1">
+          <mxGeometry relative="1" x="0.1187" y="-1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="YaZ-BdDcl8S8cg640AEX-38" edge="1" parent="1" source="YaZ-BdDcl8S8cg640AEX-15" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.75;exitY=1;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;defaultLabelBackgroundColor=page;" target="YaZ-BdDcl8S8cg640AEX-26">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="YaZ-BdDcl8S8cg640AEX-39" edge="1" parent="1" source="YaZ-BdDcl8S8cg640AEX-15" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;defaultLabelBackgroundColor=page;" target="YaZ-BdDcl8S8cg640AEX-27">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="YaZ-BdDcl8S8cg640AEX-41" connectable="0" parent="YaZ-BdDcl8S8cg640AEX-39" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];inheritText=1;defaultLabelBackgroundColor=page;" value="LAN — 10.10.10.106" vertex="1">
+          <mxGeometry relative="1" x="0.3964" y="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="YaZ-BdDcl8S8cg640AEX-15" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="&lt;p&gt;&lt;code&gt;vmbr1 — Clyde LAN Bridge&lt;/code&gt;&lt;/p&gt;&lt;p&gt;&lt;/p&gt;" vertex="1">
+          <mxGeometry height="60" width="120" x="90" y="820" as="geometry" />
+        </mxCell>
+        <mxCell id="YaZ-BdDcl8S8cg640AEX-18" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="&lt;p&gt;&lt;code&gt;VM103 — Windows Server DC01&lt;/code&gt;&lt;/p&gt;&lt;p&gt;&lt;/p&gt;" vertex="1">
+          <mxGeometry height="60" width="120" x="430" y="820" as="geometry" />
+        </mxCell>
+        <mxCell id="YaZ-BdDcl8S8cg640AEX-21" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="&lt;p&gt;&lt;code&gt;VM104 — Windows 11 Client&lt;/code&gt;&lt;/p&gt;&lt;p&gt;&lt;/p&gt;" vertex="1">
+          <mxGeometry height="60" width="120" x="430" y="900" as="geometry" />
+        </mxCell>
+        <mxCell id="YaZ-BdDcl8S8cg640AEX-26" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="VM102 — Ubuntu Server" vertex="1">
+          <mxGeometry height="60" width="120" x="430" y="980" as="geometry" />
+        </mxCell>
+        <mxCell id="YaZ-BdDcl8S8cg640AEX-27" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="VM105 — Wazuh Server" vertex="1">
+          <mxGeometry height="60" width="120" x="430" y="1060" as="geometry" />
+        </mxCell>
+        <mxCell id="YaZ-BdDcl8S8cg640AEX-42" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="&lt;p&gt;&lt;code&gt;Clyde LAN — 10.10.10.0/24&lt;/code&gt;&lt;/p&gt;&lt;p&gt;&lt;/p&gt;" vertex="1">
+          <mxGeometry height="30" width="60" x="190" y="770" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
