@@ -1,0 +1,9 @@
+{
+  "test_data": true,
+  "timestamp": "2026-11-13T19:23:59.650+0000",
+  "description": "SIMULATED TEST: Repeated authentication failures detected.",
+  "rule_id": "5503",
+  "level": 10,
+  "source": "pam",
+  "user": "REDACTED"
+}
